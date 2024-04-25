@@ -1,0 +1,20 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/Java(Jakarta)/.metadata
+/Java(Jakarta)/Servers
+
+/Java(Jakarta)/pro/.settings
+/Java(Jakarta)/pro/build
+/Java(Jakarta)/pro/.classpath
+/Java(Jakarta)/pro/.project
+
+/Java(Jakarta)/Test/.settings
+/Java(Jakarta)/Test/build
+/Java(Jakarta)/Test/.classpath
+/Java(Jakarta)/Test/.project
+
+/Java(Jakarta)/manageUsers/.settings
+/Java(Jakarta)/manageUsers/build
+/Java(Jakarta)/manageUsers/.classpath
+/Java(Jakarta)/manageUsers/.project
