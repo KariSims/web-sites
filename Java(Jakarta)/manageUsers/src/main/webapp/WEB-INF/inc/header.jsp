@@ -12,8 +12,8 @@
 	<header>Gestion des utilisateurs</header>
 	<nav>
 		<ul>
-			<li><a href="<%= APP_ROOT %>/list">Accueil</a></li>
-			<li><a href="<%= APP_ROOT %>/list">Lister</a></li>
-			<li><a href="<%= APP_ROOT %>/add">Ajouter</a></li>		
+			<li><a href="<%= APP_ROOT %>/liste-utilisateurs">Accueil</a></li>
+			<li><a href="<%= APP_ROOT %>/liste-utilisateurs">Lister</a></li>
+			<li><a href="<%= APP_ROOT %>/ajout-utilisateur">Ajouter</a></li>		
 		</ul>
 	</nav>
