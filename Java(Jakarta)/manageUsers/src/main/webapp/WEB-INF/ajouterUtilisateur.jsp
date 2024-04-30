@@ -10,16 +10,18 @@
 
 %>
     <section>  
-    	<%
+   	
+        <h1 id ="titre-principal">Ajout d'un utilisateur</h1>
+        
+        <%
     		if(statusMessage !=null)
     		{%>
-    			<div class="alert alert- <%= status ? "success" : "danger" %>">
-        		<%= statusMessage %>
-        	</div><%
+    			<span class="alert alert-<%= status ? "success" : "danger" %>">
+        			<%= statusMessage %>
+        		</span><%
     		} 	
     	%>
-    	
-        <h1 id ="titre-principal">Ajout d'un utilisateur</h1>
+        
         <form class ="main" method="post">
             <div class="formItem">
                 <label>Nom</label>

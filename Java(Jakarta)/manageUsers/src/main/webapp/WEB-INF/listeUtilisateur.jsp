@@ -13,7 +13,8 @@
 	    <%
 	        if(utilisateurs.isEmpty()) {
 	    %>
-	        <p>Désolé, la liste des utilisateurs est vide pour le moment !</p>
+	        <p class="etat-liste">Désolé, la liste des utilisateurs est vide pour le moment ! <br><br></p>
+	        <p class="redirect-liste"> Pour ajouter des utilisateurs, veuillez cliquez sur : <a href="<%= APP_ROOT %>/ajout-utilisateur">Ajouter</a> </p>
 	    <%
 	        } else {
 	    %>
@@ -22,7 +23,6 @@
 	                <th>ID</th>
 	                <th>Nom</th>
 	                <th>Prénom</th>
-	                <th>Login</th>
 	                <th>Password</th>
 	                <th colspan="2">Action</th> 
 	            </tr>
@@ -34,8 +34,8 @@
 	                    <td><%= utilisateur.getNom() %></td>
 	                    <td><%= utilisateur.getPrenom() %></td>
 	                    <td><%= utilisateur.getPassword() %></td>
-	                    <td><a href="update?id=<%= utilisateur.getId() %>">Modifier</a></td>
-	                    <td><a href="delete?id=<%= utilisateur.getId() %>" onclick="return confirm('En etes vous sur')">Supprimer</a></td>
+	                    <td><a href="modification?id=<%= utilisateur.getId() %>">Modifier</a></td>
+	                    <td><a href="suppression?id=<%= utilisateur.getId() %>" onclick="return confirm('En êtes-vous sûr')">Supprimer</a></td>
 	                     
 	                </tr>
 	            <%

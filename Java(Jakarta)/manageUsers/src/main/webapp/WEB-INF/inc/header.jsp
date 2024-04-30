@@ -13,7 +13,7 @@
 	<nav>
 		<ul>
 			<li><a href="<%= APP_ROOT %>/liste-utilisateurs">Accueil</a></li>
-			<li><a href="<%= APP_ROOT %>/liste-utilisateurs">Lister</a></li>
-			<li><a href="<%= APP_ROOT %>/ajout-utilisateur">Ajouter</a></li>		
+			<li><a href="<%= APP_ROOT %>/liste-utilisateurs">Liste</a></li>
+			<li><a href="<%= APP_ROOT %>/ajout-utilisateur">Ajout</a></li>		
 		</ul>
 	</nav>

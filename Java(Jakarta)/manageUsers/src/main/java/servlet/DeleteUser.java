@@ -2,7 +2,7 @@ package servlet;
 
 import jakarta.servlet.ServletException;
 import java.io.IOException;
-import beans.Utilisateur;
+//import beans.Utilisateur;
 import dao.UtilisateurDao;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -22,6 +22,6 @@ public class DeleteUser extends HttpServlet {
 		{
 			UtilisateurDao.supprimer(Integer.parseInt(id));
 		} 
-		response.sendRedirect("list");
+		response.sendRedirect("liste-utilisateurs");
 	}
 }

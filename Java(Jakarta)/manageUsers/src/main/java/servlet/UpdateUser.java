@@ -39,7 +39,7 @@ public class UpdateUser extends HttpServlet {
 			    return;
 			}	
 		}
-			response.sendRedirect("list");
+			response.sendRedirect("liste-utilisateurs");
 	
 		
 	}
@@ -57,7 +57,7 @@ public class UpdateUser extends HttpServlet {
 		
 		if (UtilisateurDao.modifier(utilisateur)) {
 			
-			response.sendRedirect("list");
+			response.sendRedirect("liste-utilisateurs");
 		} else {
 			response.sendRedirect("update?id= " + id);
 		}
